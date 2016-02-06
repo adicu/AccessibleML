@@ -1,0 +1,10 @@
+clone_depth: 1
+
+os: "Windows Server 2012"
+build_script:
+    - set PATH=C:\Miniconda3-x64;C:\Miniconda3-x64\Scripts;%PATH%
+    - conda update --yes --quiet conda
+    - conda env create --quiet --name accessibleml
+    - activate accessibleml
+test_script:
+    - py.test --verbose
