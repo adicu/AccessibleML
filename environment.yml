@@ -1,0 +1,11 @@
+name: accessibleml
+dependencies:
+- matplotlib=1.5
+- notebook=4.1
+- numpy=1.10
+- python=3.5
+- pytest                    # testing dependency
+- scikit-learn=0.17
+- theano=0.7
+- pip:
+    - git+https://github.com/dnouri/nolearn.git@master#egg=nolearn==0.7.git
