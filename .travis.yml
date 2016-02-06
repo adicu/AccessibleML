@@ -17,9 +17,10 @@ install:
 
     - conda env create -n accessibleml
     - source activate accessibleml
+    - pip install pytest-xdist      # parallelize to speed up OS X
 
 script:
-    - py.test -v
+    - py.test --verbose -n 2
 
 notifications:
     email: false
