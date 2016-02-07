@@ -8,9 +8,9 @@ dependencies:
 - pytest                    # testing dependency
 - python=3.5
 - scikit-learn=0.17
-- statsmodels=0.6
 - scipy=0.17
-- pip:                      # Why can nolearn not just use the released versions
+- statsmodels=0.6
+- pip:                      # Why can't nolearn just use the released versions?
     - https://github.com/Theano/Theano/archive/master.zip
     - git+https://github.com/dnouri/nolearn.git@master#egg=nolearn==0.7.git
     - git+https://github.com/Lasagne/Lasagne.git@8f4f9b2#egg=Lasagne==0.2.git
