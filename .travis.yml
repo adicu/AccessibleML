@@ -23,7 +23,7 @@ before_script:
     - conda env export              # So complete environment for debugging
 
 script:
-    - py.test --verbose -n 2
+    - travis_wait py.test --verbose -n 2
 
 notifications:
     email: false
