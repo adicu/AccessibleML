@@ -19,6 +19,9 @@ install:
     - source activate accessibleml
     - pip install pytest-xdist      # parallelize to speed up OS X
 
+before_script:
+    - conda env export              # So complete environment for debugging
+
 script:
     - py.test --verbose -n 2
 

@@ -6,5 +6,7 @@ build_script:
     - conda update --yes --quiet conda
     - conda env create --quiet --name accessibleml
     - activate accessibleml
+before_test:
+    - conda env export
 test_script:
     - py.test --verbose
