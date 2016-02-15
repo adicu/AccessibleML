@@ -6,7 +6,7 @@ dependencies:
 - pandas=0.17
 - pillow=3.1
 - pytest                    # testing dependency
-- python=3.5
+- python=3.4
 - scikit-learn=0.17
 - scipy=0.17
 - statsmodels=0.6
