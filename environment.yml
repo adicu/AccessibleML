@@ -1,14 +1,16 @@
 name: accessibleml
 dependencies:
+- ipywidgets=4.1
 - matplotlib=1.5
 - notebook=4.1
 - numpy=1.10
 - pandas=0.17
 - pillow=3.1
-- pytest                    # testing dependency
+- pytest                    # [test]
 - python=3.4
 - scikit-learn=0.17
 - scipy=0.17
+- seaborn=0.7
 - statsmodels=0.6
 - pip:                      # Why can't nolearn just use the released versions?
     - https://github.com/Theano/Theano/archive/master.zip
