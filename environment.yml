@@ -7,9 +7,9 @@ dependencies:
 - pandas=0.17
 - pillow=3.1
 - pytest                    # [test]
-- python=3.4
+- python=3.5
 - scikit-learn=0.17
-- scipy=0.17
+- scipy=0.18
 - seaborn=0.7
 - statsmodels=0.6
 - pip:                      # Why can't nolearn just use the released versions?
